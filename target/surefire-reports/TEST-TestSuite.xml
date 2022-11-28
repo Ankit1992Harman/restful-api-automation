@@ -1,0 +1,3091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="38.303" tests="27" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ankit/Downloads/rest-assured-examples-master/target/test-classes:/Users/ankit/Downloads/rest-assured-examples-master/target/classes:/Users/ankit/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/ankit/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ankit/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/ankit/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/ankit/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/ankit/.m2/repository/io/rest-assured/rest-assured/5.1.1/rest-assured-5.1.1.jar:/Users/ankit/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/ankit/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/ankit/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/ankit/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/ankit/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ankit/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/ankit/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/ankit/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/ankit/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ankit/.m2/repository/io/rest-assured/json-path/5.1.1/json-path-5.1.1.jar:/Users/ankit/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/ankit/.m2/repository/io/rest-assured/rest-assured-common/5.1.1/rest-assured-common-5.1.1.jar:/Users/ankit/.m2/repository/io/rest-assured/xml-path/5.1.1/xml-path-5.1.1.jar:/Users/ankit/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/ankit/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/ankit/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/ankit/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/ankit/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/ankit/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.4.1/jackson-databind-2.13.4.1.jar:/Users/ankit/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar:/Users/ankit/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar:/Users/ankit/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/ankit/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/ankit/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/ankit/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/ankit/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/ankit/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/ankit/.m2/repository/org/apache/logging/log4j/log4j-core/2.18.0/log4j-core-2.18.0.jar:/Users/ankit/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/ankit/.m2/repository/io/rest-assured/json-schema-validator/5.1.1/json-schema-validator-5.1.1.jar:/Users/ankit/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/ankit/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/ankit/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/ankit/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ankit/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/ankit/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/ankit/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/ankit/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/ankit/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/ankit/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/ankit/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/ankit/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/ankit/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/ankit/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/ankit/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/ankit/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/ankit/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/ankit/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Users/ankit/Library/Java/JavaVirtualMachines/temurin-17.0.5/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ankit/Downloads/rest-assured-examples-master/target/surefire/surefirebooter-20221126194236998_3.jar /Users/ankit/Downloads/rest-assured-examples-master/target/surefire 2022-11-26T19-42-36_858-jvmRun1 surefire-20221126194236998_1tmp surefire_0-20221126194236998_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ankit/Downloads/rest-assured-examples-master/target/test-classes:/Users/ankit/Downloads/rest-assured-examples-master/target/classes:/Users/ankit/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/ankit/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ankit/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/ankit/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/ankit/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/ankit/.m2/repository/io/rest-assured/rest-assured/5.1.1/rest-assured-5.1.1.jar:/Users/ankit/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/ankit/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/ankit/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/ankit/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/ankit/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ankit/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/ankit/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/ankit/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/ankit/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ankit/.m2/repository/io/rest-assured/json-path/5.1.1/json-path-5.1.1.jar:/Users/ankit/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/ankit/.m2/repository/io/rest-assured/rest-assured-common/5.1.1/rest-assured-common-5.1.1.jar:/Users/ankit/.m2/repository/io/rest-assured/xml-path/5.1.1/xml-path-5.1.1.jar:/Users/ankit/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/ankit/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/ankit/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/ankit/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/ankit/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/ankit/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.4.1/jackson-databind-2.13.4.1.jar:/Users/ankit/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar:/Users/ankit/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar:/Users/ankit/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/ankit/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/ankit/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/ankit/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/ankit/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/ankit/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/ankit/.m2/repository/org/apache/logging/log4j/log4j-core/2.18.0/log4j-core-2.18.0.jar:/Users/ankit/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/ankit/.m2/repository/io/rest-assured/json-schema-validator/5.1.1/json-schema-validator-5.1.1.jar:/Users/ankit/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/ankit/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/ankit/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/ankit/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ankit/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/ankit/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/ankit/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/ankit/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/ankit/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/ankit/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/ankit/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/ankit/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/ankit/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/ankit/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/ankit/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/ankit/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/ankit/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/ankit/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ankit"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/Users/ankit/Library/Java/JavaVirtualMachines/temurin-17.0.5/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ankit/Downloads/rest-assured-examples-master"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/ankit/Downloads/rest-assured-examples-master/target/surefire/surefirebooter-20221126194236998_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="user.name" value="ankit"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.4"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="localRepository" value="/Users/ankit/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/70/z5vtcdf175s9kq5vvh4r5gtw0000gn/T/"/>
+    <property name="idea.version" value="2021.3.3"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="/Users/ankit/Downloads/rest-assured-examples-master"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="US-ASCII"/>
+    <property name="java.library.path" value="/Users/ankit/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testAuthenticationToken[eve.holt@reqres.in, pistol](1)" classname="io.github.mfaisalkhatri.TestAuthentication" time="2.021">
+    <system-out><![CDATA[19:42:37.756 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:37.758 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:37.758 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....testAuthenticationToken
+19:42:37.758 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:37.758 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Nov 2022 14:12:39 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nCB%2FbUY8gicvRtcD5j%2BtQ9R%2B5QrHGHbCtoT4tNeKkHf%2B%2Fty1foHu%2FU55KLfSnFN3pHZpWWp5eGbWtddoBUoVI4EsLf1oLCSlLHm2UdU6B%2BOeR0IQgKzun85TQw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 770338619ed53223-BOM
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+19:42:39.774 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:39.774 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:39.774 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.testAuthenticationToken
+19:42:39.774 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:39.774 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testAuthToken[eve.holt@reqres.in, pistol](1)" classname="io.github.mfaisalkhatri.TestAuthentication" time="0.581">
+    <system-out><![CDATA[19:42:39.775 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:39.775 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:39.775 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....testAuthToken
+19:42:39.775 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:39.776 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Nov 2022 14:12:40 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5S8fkMl%2FsQBaHEOlsHaI82akQhGNkKP89WiLhyUCt%2FAc0fDfsHQJE0bu7RPoB69KUNtjlK%2Fy4lPJ2Lbof7LTzdW7RRdMXm%2FlwlMPddp7UXkGTGjxr%2BBiQDYjpw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 770338666978f425-BOM
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+19:42:40.354 [main] INFO  io.github.mfaisalkhatri.TestAuthentication - Token isQpwL5tke4Pnpja7X4
+19:42:40.354 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:40.354 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:40.354 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.testAuthToken
+19:42:40.354 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:40.354 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="getRequestTest[2](1)" classname="io.github.mfaisalkhatri.TestGetRequests" time="0.398">
+    <system-out><![CDATA[19:42:40.356 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:40.356 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:40.356 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Completed Successfully for all tests!![TestAuthentication.testAuthToken(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestAuthentication@29df4d43], TestAuthentication.testAuthenticationToken(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestAuthentication@29df4d43], TestGetRequests.getRequestTest(int)[pri:0, instance:io.github.mfaisalkhatri.TestGetRequests@5974109], TestGetRequests.getRequestTestWithQueryParam(int)[pri:0, instance:io.github.mfaisalkhatri.TestGetRequests@5974109], TestGetRequestWithRestAssuredConfig.getRequestTestwithRestAssuredConfig()[pri:0, instance:io.github.mfaisalkhatri.TestGetRequestWithRestAssuredConfig@590c73d3], PostRequestBuilderExample.postTestUsingBuilderPattern()[pri:0, instance:io.github.mfaisalkhatri.PostRequestBuilderExample@4bef0fe3], TestPostRequests.testPostRequests(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPostRequests@192d74fb], TestPutRequests.putRequestsTests(int,java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPutRequests@efde75f], TestPatchRequests.patchRequestTests(int,java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPatchRequests@12bfd80d], TestDeleteRequests.deleteRequestTests(int)[pri:0, instance:io.github.mfaisalkhatri.TestDeleteRequests@5b40ceb]]
+19:42:40.356 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:40.356 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:40.373 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:40.373 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:40.373 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....getRequestTest
+19:42:40.373 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:40.373 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:40.647 [main] INFO  io.github.mfaisalkhatri.TestGetRequests - 200
+19:42:40.772 [main] INFO  io.github.mfaisalkhatri.TestGetRequests - {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+19:42:40.772 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:40.772 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:40.772 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.getRequestTest
+19:42:40.772 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:40.772 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="getRequestTestWithQueryParam[2](1)" classname="io.github.mfaisalkhatri.TestGetRequests" time="1.292">
+    <system-out><![CDATA[19:42:40.772 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:40.773 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:40.773 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....getRequestTestWithQueryParam
+19:42:40.773 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:40.773 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:42.062 [main] INFO  io.github.mfaisalkhatri.TestGetRequests - {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+19:42:42.064 [main] INFO  io.github.mfaisalkhatri.TestGetRequests - Michael
+19:42:42.064 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:42.064 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:42.064 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.getRequestTestWithQueryParam
+19:42:42.064 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:42.064 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="getRequestTestwithRestAssuredConfig" classname="io.github.mfaisalkhatri.TestGetRequestWithRestAssuredConfig" time="0.143">
+    <system-out><![CDATA[19:42:42.064 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:42.064 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:42.064 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Completed Successfully for all tests!![TestAuthentication.testAuthToken(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestAuthentication@29df4d43], TestAuthentication.testAuthenticationToken(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestAuthentication@29df4d43], TestGetRequests.getRequestTest(int)[pri:0, instance:io.github.mfaisalkhatri.TestGetRequests@5974109], TestGetRequests.getRequestTestWithQueryParam(int)[pri:0, instance:io.github.mfaisalkhatri.TestGetRequests@5974109], TestGetRequestWithRestAssuredConfig.getRequestTestwithRestAssuredConfig()[pri:0, instance:io.github.mfaisalkhatri.TestGetRequestWithRestAssuredConfig@590c73d3], PostRequestBuilderExample.postTestUsingBuilderPattern()[pri:0, instance:io.github.mfaisalkhatri.PostRequestBuilderExample@4bef0fe3], TestPostRequests.testPostRequests(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPostRequests@192d74fb], TestPutRequests.putRequestsTests(int,java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPutRequests@efde75f], TestPatchRequests.patchRequestTests(int,java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPatchRequests@12bfd80d], TestDeleteRequests.deleteRequestTests(int)[pri:0, instance:io.github.mfaisalkhatri.TestDeleteRequests@5b40ceb]]
+19:42:42.064 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:42.064 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:42.074 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:42.074 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:42.074 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....getRequestTestwithRestAssuredConfig
+19:42:42.074 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:42.074 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	GET
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 26 Nov 2022 14:12:42 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 6601
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Tsm8Gb8213jwBWtM6ISpqTlXhxsKN%2FYH9qAxzJkNdBCUrUPalr221G0EbqdzmWegqqK7tevfbUXNkix4LY7oJgSlVQOUyZiwrPeXFQMdRNdM7BBkCe9ph69w7A%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 77033874cb87f46a-BOM
+Content-Encoding: gzip
+
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+19:42:42.218 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:42.218 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:42.218 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.getRequestTestwithRestAssuredConfig
+19:42:42.218 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:42.218 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="testPostRequests[Rahul, QA](1)" classname="io.github.mfaisalkhatri.TestPostRequests" time="0.533">
+    <system-out><![CDATA[19:42:42.218 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:42.218 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:42.218 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Completed Successfully for all tests!![TestAuthentication.testAuthToken(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestAuthentication@29df4d43], TestAuthentication.testAuthenticationToken(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestAuthentication@29df4d43], TestGetRequests.getRequestTest(int)[pri:0, instance:io.github.mfaisalkhatri.TestGetRequests@5974109], TestGetRequests.getRequestTestWithQueryParam(int)[pri:0, instance:io.github.mfaisalkhatri.TestGetRequests@5974109], TestGetRequestWithRestAssuredConfig.getRequestTestwithRestAssuredConfig()[pri:0, instance:io.github.mfaisalkhatri.TestGetRequestWithRestAssuredConfig@590c73d3], PostRequestBuilderExample.postTestUsingBuilderPattern()[pri:0, instance:io.github.mfaisalkhatri.PostRequestBuilderExample@4bef0fe3], TestPostRequests.testPostRequests(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPostRequests@192d74fb], TestPutRequests.putRequestsTests(int,java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPutRequests@efde75f], TestPatchRequests.patchRequestTests(int,java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPatchRequests@12bfd80d], TestDeleteRequests.deleteRequestTests(int)[pri:0, instance:io.github.mfaisalkhatri.TestDeleteRequests@5b40ceb]]
+19:42:42.219 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:42.219 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:42.221 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:42.221 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:42.221 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....testPostRequests
+19:42:42.221 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:42.221 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Rahul",
+    "job": "QA"
+}
+HTTP/1.1 201 Created
+Date: Sat, 26 Nov 2022 14:12:42 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 77
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"4d-VKluzXjA389ytI75CvxPa1O1sMk"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=c4OTVSbdwH%2FHnrC7jvldCDFxvjdySkdiJoexhnLtYepocihwJb64mrtFYr9HE8DRtGDp8KCodN0vnTDWP2iEcpza4XdA%2FCBbvWseaUlnZ1tCWulaB0kLkQZbZg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 77033875bfa7848f-BOM
+
+{
+    "name": "Rahul",
+    "job": "QA",
+    "id": "627",
+    "createdAt": "2022-11-26T14:12:42.823Z"
+}
+19:42:42.753 [main] INFO  io.github.mfaisalkhatri.TestPostRequests - {"name":"Rahul","job":"QA","id":"627","createdAt":"2022-11-26T14:12:42.823Z"}
+19:42:42.753 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:42.753 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:42.753 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.testPostRequests
+19:42:42.753 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:42.753 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="testPostRequests[Jane, Sr.Dev](2)" classname="io.github.mfaisalkhatri.TestPostRequests" time="0.53">
+    <system-out><![CDATA[19:42:42.754 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:42.754 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:42.754 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....testPostRequests
+19:42:42.754 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:42.754 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Jane",
+    "job": "Sr.Dev"
+}
+HTTP/1.1 201 Created
+Date: Sat, 26 Nov 2022 14:12:43 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 80
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"50-xGmLoS5IuwY4uYeJM+9uWp9yWUs"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wiE62Nk8UvTt1g6vjVDCbVjrjAeZx3O8JuWHKdBXWwsSkVh%2FSoZNzgnRarDCBD4bIBVCZZSbqrcVhYo2ynZWC1SHZvIVb30yX%2BNkaP66AAtGdzY%2FEJO7gto%2FxA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 77033878fccd85dc-BOM
+
+{
+    "name": "Jane",
+    "job": "Sr.Dev",
+    "id": "924",
+    "createdAt": "2022-11-26T14:12:43.355Z"
+}
+19:42:43.284 [main] INFO  io.github.mfaisalkhatri.TestPostRequests - {"name":"Jane","job":"Sr.Dev","id":"924","createdAt":"2022-11-26T14:12:43.355Z"}
+19:42:43.284 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:43.284 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:43.284 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.testPostRequests
+19:42:43.284 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:43.284 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="testPostRequests[Albert, Dev](3)" classname="io.github.mfaisalkhatri.TestPostRequests" time="0.664">
+    <system-out><![CDATA[19:42:43.285 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:43.285 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:43.285 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....testPostRequests
+19:42:43.285 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:43.285 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Albert",
+    "job": "Dev"
+}
+HTTP/1.1 201 Created
+Date: Sat, 26 Nov 2022 14:12:43 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 79
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"4f-bS+14IkcRNWBgl6Go6JJPEudmvw"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EVo3Hw6h%2F3CuAgpEWicNsuxs%2B1Fh%2FjCpHu2g4b9pk2C%2BHT0wGkMwwBqggb5KGUnd1qzG9tNLr%2FAlyvXKRJcNUy2wU%2B7U%2B9DBmze9BcZ5GCV2Lrx5joTuWHNNUQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7703387c58696eef-BOM
+
+{
+    "name": "Albert",
+    "job": "Dev",
+    "id": "456",
+    "createdAt": "2022-11-26T14:12:43.899Z"
+}
+19:42:43.948 [main] INFO  io.github.mfaisalkhatri.TestPostRequests - {"name":"Albert","job":"Dev","id":"456","createdAt":"2022-11-26T14:12:43.899Z"}
+19:42:43.948 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:43.948 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:43.948 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.testPostRequests
+19:42:43.948 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:43.948 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="testPostRequests[Johnny, Project Manager](4)" classname="io.github.mfaisalkhatri.TestPostRequests" time="0.547">
+    <system-out><![CDATA[19:42:43.949 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:43.949 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:43.949 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....testPostRequests
+19:42:43.949 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:43.949 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Johnny",
+    "job": "Project Manager"
+}
+HTTP/1.1 201 Created
+Date: Sat, 26 Nov 2022 14:12:44 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 91
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"5b-asvreMYS6sbDHQ7B2PoK8DP+IEE"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uU5E18x%2FJzF2jZnod4zwEE4H%2FiDyZkTorAY9xF60omW26nj%2Fr2zNxFKLgG%2FjjjCgvfV5jXySliCtcpNZ2ARXDDs0LwVyPVtkK0hyA5ZV44%2B6bAmMubzYLM228Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 77033880791e2dfc-BOM
+
+{
+    "name": "Johnny",
+    "job": "Project Manager",
+    "id": "981",
+    "createdAt": "2022-11-26T14:12:44.555Z"
+}
+19:42:44.495 [main] INFO  io.github.mfaisalkhatri.TestPostRequests - {"name":"Johnny","job":"Project Manager","id":"981","createdAt":"2022-11-26T14:12:44.555Z"}
+19:42:44.495 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:44.495 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:44.496 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.testPostRequests
+19:42:44.496 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:44.496 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="postTestUsingBuilderPattern" classname="io.github.mfaisalkhatri.PostRequestBuilderExample" time="0.618">
+    <system-out><![CDATA[19:42:44.498 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:44.498 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:44.498 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....postTestUsingBuilderPattern
+19:42:44.498 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:44.498 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Louie",
+    "job": "chef"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Louie",
+    "job": "chef"
+}
+HTTP/1.1 201 Created
+Date: Sat, 26 Nov 2022 14:12:45 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 79
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"4f-AAoFK5znSJLVhC/D4Xhl9L/6b/0"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hCX688aqIxSL2nO08%2BLp0PdUdUf7R25ZUsv6np6pvW3pYG9SKCNeso7CPyu%2F7qTVSAr0r%2BNiBd1ayvq4e2n5Iik5tDd0Tpt69pMYIXmjFx7r%2BnkDgnPBKZJpRg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 770338846a7d3205-BOM
+
+{
+    "name": "Louie",
+    "job": "chef",
+    "id": "427",
+    "createdAt": "2022-11-26T14:12:45.194Z"
+}
+HTTP/1.1 201 Created
+Date: Sat, 26 Nov 2022 14:12:45 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 79
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"4f-AAoFK5znSJLVhC/D4Xhl9L/6b/0"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hCX688aqIxSL2nO08%2BLp0PdUdUf7R25ZUsv6np6pvW3pYG9SKCNeso7CPyu%2F7qTVSAr0r%2BNiBd1ayvq4e2n5Iik5tDd0Tpt69pMYIXmjFx7r%2BnkDgnPBKZJpRg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 770338846a7d3205-BOM
+
+{
+    "name": "Louie",
+    "job": "chef",
+    "id": "427",
+    "createdAt": "2022-11-26T14:12:45.194Z"
+}
+19:42:45.111 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:45.112 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:45.112 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.postTestUsingBuilderPattern
+19:42:45.112 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:45.112 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="putRequestsTests[2, Michael, QA Lead](1)" classname="io.github.mfaisalkhatri.TestPutRequests" time="0.566">
+    <system-out><![CDATA[19:42:45.112 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:45.112 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:45.112 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Completed Successfully for all tests!![TestAuthentication.testAuthToken(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestAuthentication@29df4d43], TestAuthentication.testAuthenticationToken(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestAuthentication@29df4d43], TestGetRequests.getRequestTest(int)[pri:0, instance:io.github.mfaisalkhatri.TestGetRequests@5974109], TestGetRequests.getRequestTestWithQueryParam(int)[pri:0, instance:io.github.mfaisalkhatri.TestGetRequests@5974109], TestGetRequestWithRestAssuredConfig.getRequestTestwithRestAssuredConfig()[pri:0, instance:io.github.mfaisalkhatri.TestGetRequestWithRestAssuredConfig@590c73d3], PostRequestBuilderExample.postTestUsingBuilderPattern()[pri:0, instance:io.github.mfaisalkhatri.PostRequestBuilderExample@4bef0fe3], TestPostRequests.testPostRequests(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPostRequests@192d74fb], TestPutRequests.putRequestsTests(int,java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPutRequests@efde75f], TestPatchRequests.patchRequestTests(int,java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPatchRequests@12bfd80d], TestDeleteRequests.deleteRequestTests(int)[pri:0, instance:io.github.mfaisalkhatri.TestDeleteRequests@5b40ceb]]
+19:42:45.113 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:45.113 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:45.117 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:45.117 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:45.117 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....putRequestsTests
+19:42:45.117 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:45.117 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Michael",
+    "job": "QA Lead"
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Michael",
+    "job": "QA Lead"
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Nov 2022 14:12:45 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"49-yke9PdlAhWIJ8BA7b6+6XgW+Sr8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BHjNCsnnopU8VM30f2I%2B4m7vuRDFek1l%2BvVeDg82MAC98qqkqWpctulz65%2B2mopXjSRECui9%2BL%2FfVMKIBewW8k1Aax%2BQgSUa23m6xmxapIHZqrGWKF%2BaWxx7UQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 77033887caa0856f-BOM
+Content-Encoding: gzip
+
+{
+    "name": "Michael",
+    "job": "QA Lead",
+    "updatedAt": "2022-11-26T14:12:45.764Z"
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Nov 2022 14:12:45 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"49-yke9PdlAhWIJ8BA7b6+6XgW+Sr8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BHjNCsnnopU8VM30f2I%2B4m7vuRDFek1l%2BvVeDg82MAC98qqkqWpctulz65%2B2mopXjSRECui9%2BL%2FfVMKIBewW8k1Aax%2BQgSUa23m6xmxapIHZqrGWKF%2BaWxx7UQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 77033887caa0856f-BOM
+Content-Encoding: gzip
+
+{
+    "name": "Michael",
+    "job": "QA Lead",
+    "updatedAt": "2022-11-26T14:12:45.764Z"
+}
+19:42:45.686 [main] INFO  io.github.mfaisalkhatri.TestPutRequests - {"name":"Michael","job":"QA Lead","updatedAt":"2022-11-26T14:12:45.764Z"}
+19:42:45.686 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:45.686 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:45.686 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.putRequestsTests
+19:42:45.686 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:45.686 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="putRequestsTests[958, Yuan, Project Architect](2)" classname="io.github.mfaisalkhatri.TestPutRequests" time="0.532">
+    <system-out><![CDATA[19:42:45.687 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:45.687 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:45.687 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....putRequestsTests
+19:42:45.687 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:45.687 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/958
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Yuan",
+    "job": "Project Architect"
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/958
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Yuan",
+    "job": "Project Architect"
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Nov 2022 14:12:46 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"50-qTZOVZlrlrkGKS5tlz34LQjcaho"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ir5%2ByYnUhF0pM5EiG33SVdHc%2BL0y%2BHKq8pcvSqlDO7zGDhVpAYq%2BGjrbNnpbzojB%2BP61AzIuchsX0XNBGjCRAVN2oM2mplEKoowitbhZJZTdhgoB7Uk0TMqhAw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 7703388b5d92f405-BOM
+Content-Encoding: gzip
+
+{
+    "name": "Yuan",
+    "job": "Project Architect",
+    "updatedAt": "2022-11-26T14:12:46.294Z"
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Nov 2022 14:12:46 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"50-qTZOVZlrlrkGKS5tlz34LQjcaho"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ir5%2ByYnUhF0pM5EiG33SVdHc%2BL0y%2BHKq8pcvSqlDO7zGDhVpAYq%2BGjrbNnpbzojB%2BP61AzIuchsX0XNBGjCRAVN2oM2mplEKoowitbhZJZTdhgoB7Uk0TMqhAw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 7703388b5d92f405-BOM
+Content-Encoding: gzip
+
+{
+    "name": "Yuan",
+    "job": "Project Architect",
+    "updatedAt": "2022-11-26T14:12:46.294Z"
+}
+19:42:46.218 [main] INFO  io.github.mfaisalkhatri.TestPutRequests - {"name":"Yuan","job":"Project Architect","updatedAt":"2022-11-26T14:12:46.294Z"}
+19:42:46.218 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:46.218 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:46.218 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.putRequestsTests
+19:42:46.218 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:46.219 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="patchRequestTests[2, Michael, QA Lead](1)" classname="io.github.mfaisalkhatri.TestPatchRequests" time="0.653">
+    <system-out><![CDATA[19:42:46.219 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:46.219 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:46.219 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Completed Successfully for all tests!![TestAuthentication.testAuthToken(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestAuthentication@29df4d43], TestAuthentication.testAuthenticationToken(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestAuthentication@29df4d43], TestGetRequests.getRequestTest(int)[pri:0, instance:io.github.mfaisalkhatri.TestGetRequests@5974109], TestGetRequests.getRequestTestWithQueryParam(int)[pri:0, instance:io.github.mfaisalkhatri.TestGetRequests@5974109], TestGetRequestWithRestAssuredConfig.getRequestTestwithRestAssuredConfig()[pri:0, instance:io.github.mfaisalkhatri.TestGetRequestWithRestAssuredConfig@590c73d3], PostRequestBuilderExample.postTestUsingBuilderPattern()[pri:0, instance:io.github.mfaisalkhatri.PostRequestBuilderExample@4bef0fe3], TestPostRequests.testPostRequests(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPostRequests@192d74fb], TestPutRequests.putRequestsTests(int,java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPutRequests@efde75f], TestPatchRequests.patchRequestTests(int,java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPatchRequests@12bfd80d], TestDeleteRequests.deleteRequestTests(int)[pri:0, instance:io.github.mfaisalkhatri.TestDeleteRequests@5b40ceb]]
+19:42:46.219 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:46.219 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:46.221 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:46.221 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:46.221 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....patchRequestTests
+19:42:46.221 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:46.221 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	PATCH
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Michael",
+    "job": "QA Lead"
+}
+Request method:	PATCH
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Michael",
+    "job": "QA Lead"
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Nov 2022 14:12:47 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"49-jgB9RU1Q9rsmBsWlMgO2J+0LEEE"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ycn%2B3xOyqMrBD97K10vjifb2l5u5UGuyb1RK8rWVUfujQcl80veDycnOHeqDxraZcz0%2BhSE0nN0S6zZHfY%2FMb9P%2B%2BwAwjBq13uE3V%2BxfwVKk0deUMmKhEeYzpg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7703388f7c4a85ad-BOM
+Content-Encoding: gzip
+
+{
+    "name": "Michael",
+    "job": "QA Lead",
+    "updatedAt": "2022-11-26T14:12:46.954Z"
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Nov 2022 14:12:47 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"49-jgB9RU1Q9rsmBsWlMgO2J+0LEEE"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ycn%2B3xOyqMrBD97K10vjifb2l5u5UGuyb1RK8rWVUfujQcl80veDycnOHeqDxraZcz0%2BhSE0nN0S6zZHfY%2FMb9P%2B%2BwAwjBq13uE3V%2BxfwVKk0deUMmKhEeYzpg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7703388f7c4a85ad-BOM
+Content-Encoding: gzip
+
+{
+    "name": "Michael",
+    "job": "QA Lead",
+    "updatedAt": "2022-11-26T14:12:46.954Z"
+}
+19:42:46.873 [main] INFO  io.github.mfaisalkhatri.TestPatchRequests - {"name":"Michael","job":"QA Lead","updatedAt":"2022-11-26T14:12:46.954Z"}
+19:42:46.873 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:46.873 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:46.873 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.patchRequestTests
+19:42:46.874 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:46.874 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="patchRequestTests[958, Yuan, Project Architect](2)" classname="io.github.mfaisalkhatri.TestPatchRequests" time="0.535">
+    <system-out><![CDATA[19:42:46.874 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:46.874 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:46.874 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....patchRequestTests
+19:42:46.874 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:46.875 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	PATCH
+Request URI:	https://reqres.in/api/users/958
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Yuan",
+    "job": "Project Architect"
+}
+Request method:	PATCH
+Request URI:	https://reqres.in/api/users/958
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Yuan",
+    "job": "Project Architect"
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Nov 2022 14:12:47 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"50-sBE3YSf4WVQ562C6lRw6IbKl9jA"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=A4DA8EV4BRQK8xmkk48NwrrFpLEoRbJccA1myWqUsKWoOshCOJzl7t6uQcIKlzqScZnODfkegIQpjiFGfaIintbt%2BzlrJxORd%2B5rel51YhiKDBqSzrR%2BVyhXIw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 77033892dcbd84e6-BOM
+Content-Encoding: gzip
+
+{
+    "name": "Yuan",
+    "job": "Project Architect",
+    "updatedAt": "2022-11-26T14:12:47.484Z"
+}
+HTTP/1.1 200 OK
+Date: Sat, 26 Nov 2022 14:12:47 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"50-sBE3YSf4WVQ562C6lRw6IbKl9jA"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=A4DA8EV4BRQK8xmkk48NwrrFpLEoRbJccA1myWqUsKWoOshCOJzl7t6uQcIKlzqScZnODfkegIQpjiFGfaIintbt%2BzlrJxORd%2B5rel51YhiKDBqSzrR%2BVyhXIw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 77033892dcbd84e6-BOM
+Content-Encoding: gzip
+
+{
+    "name": "Yuan",
+    "job": "Project Architect",
+    "updatedAt": "2022-11-26T14:12:47.484Z"
+}
+19:42:47.409 [main] INFO  io.github.mfaisalkhatri.TestPatchRequests - {"name":"Yuan","job":"Project Architect","updatedAt":"2022-11-26T14:12:47.484Z"}
+19:42:47.409 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:47.409 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:47.409 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.patchRequestTests
+19:42:47.409 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:47.409 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="deleteRequestTests[2](1)" classname="io.github.mfaisalkhatri.TestDeleteRequests" time="0.69">
+    <system-out><![CDATA[19:42:47.410 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:47.410 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:47.410 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Completed Successfully for all tests!![TestAuthentication.testAuthToken(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestAuthentication@29df4d43], TestAuthentication.testAuthenticationToken(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestAuthentication@29df4d43], TestGetRequests.getRequestTest(int)[pri:0, instance:io.github.mfaisalkhatri.TestGetRequests@5974109], TestGetRequests.getRequestTestWithQueryParam(int)[pri:0, instance:io.github.mfaisalkhatri.TestGetRequests@5974109], TestGetRequestWithRestAssuredConfig.getRequestTestwithRestAssuredConfig()[pri:0, instance:io.github.mfaisalkhatri.TestGetRequestWithRestAssuredConfig@590c73d3], PostRequestBuilderExample.postTestUsingBuilderPattern()[pri:0, instance:io.github.mfaisalkhatri.PostRequestBuilderExample@4bef0fe3], TestPostRequests.testPostRequests(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPostRequests@192d74fb], TestPutRequests.putRequestsTests(int,java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPutRequests@efde75f], TestPatchRequests.patchRequestTests(int,java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPatchRequests@12bfd80d], TestDeleteRequests.deleteRequestTests(int)[pri:0, instance:io.github.mfaisalkhatri.TestDeleteRequests@5b40ceb]]
+19:42:47.410 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:47.410 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:47.411 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:47.411 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:47.412 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....deleteRequestTests
+19:42:47.412 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:47.412 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Sat, 26 Nov 2022 14:12:48 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=F%2BmHwDueeF5SsrzVCrRtknH7IW52QkMG76X9RhVJLJ3IljGWc6el4tseyFh%2BeD1hUzWAn2L%2FyKHSwhaaRfulSaj1NVDZVOY4iQ3NoxLEIvZBNeYlWsp0q0WX9w%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 770338961de08525-BOM
+HTTP/1.1 204 No Content
+Date: Sat, 26 Nov 2022 14:12:48 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=F%2BmHwDueeF5SsrzVCrRtknH7IW52QkMG76X9RhVJLJ3IljGWc6el4tseyFh%2BeD1hUzWAn2L%2FyKHSwhaaRfulSaj1NVDZVOY4iQ3NoxLEIvZBNeYlWsp0q0WX9w%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 770338961de08525-BOM
+19:42:48.101 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:48.101 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:48.101 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.deleteRequestTests
+19:42:48.102 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:48.102 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="createBookingTest" classname="com.restfulbooker.RestfulBookerE2ETests" time="2.184">
+    <system-out><![CDATA[19:42:48.102 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:48.102 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:48.102 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Completed Successfully for all tests!![TestAuthentication.testAuthToken(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestAuthentication@29df4d43], TestAuthentication.testAuthenticationToken(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestAuthentication@29df4d43], TestGetRequests.getRequestTest(int)[pri:0, instance:io.github.mfaisalkhatri.TestGetRequests@5974109], TestGetRequests.getRequestTestWithQueryParam(int)[pri:0, instance:io.github.mfaisalkhatri.TestGetRequests@5974109], TestGetRequestWithRestAssuredConfig.getRequestTestwithRestAssuredConfig()[pri:0, instance:io.github.mfaisalkhatri.TestGetRequestWithRestAssuredConfig@590c73d3], PostRequestBuilderExample.postTestUsingBuilderPattern()[pri:0, instance:io.github.mfaisalkhatri.PostRequestBuilderExample@4bef0fe3], TestPostRequests.testPostRequests(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPostRequests@192d74fb], TestPutRequests.putRequestsTests(int,java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPutRequests@efde75f], TestPatchRequests.patchRequestTests(int,java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPatchRequests@12bfd80d], TestDeleteRequests.deleteRequestTests(int)[pri:0, instance:io.github.mfaisalkhatri.TestDeleteRequests@5b40ceb]]
+19:42:48.102 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:48.102 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:48.136 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:48.137 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:48.137 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....createBookingTest
+19:42:48.137 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:48.137 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Andre",
+    "lastname": "Balistreri",
+    "totalprice": 1848,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-06",
+        "checkout": "2022-12-01"
+    },
+    "additionalneeds": "Breakfast"
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Andre",
+    "lastname": "Balistreri",
+    "totalprice": 1848,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-06",
+        "checkout": "2022-12-01"
+    },
+    "additionalneeds": "Breakfast"
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Andre",
+    "lastname": "Balistreri",
+    "totalprice": 1848,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-06",
+        "checkout": "2022-12-01"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 206
+Etag: W/"ce-NhfpAC2YfuXbPKF+g5GTVyD2vaI"
+Date: Sat, 26 Nov 2022 14:12:50 GMT
+Via: 1.1 vegur
+
+{
+    "bookingid": 13846,
+    "booking": {
+        "firstname": "Andre",
+        "lastname": "Balistreri",
+        "totalprice": 1848,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2022-11-06",
+            "checkout": "2022-12-01"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 206
+Etag: W/"ce-NhfpAC2YfuXbPKF+g5GTVyD2vaI"
+Date: Sat, 26 Nov 2022 14:12:50 GMT
+Via: 1.1 vegur
+
+{
+    "bookingid": 13846,
+    "booking": {
+        "firstname": "Andre",
+        "lastname": "Balistreri",
+        "totalprice": 1848,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2022-11-06",
+            "checkout": "2022-12-01"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 206
+Etag: W/"ce-NhfpAC2YfuXbPKF+g5GTVyD2vaI"
+Date: Sat, 26 Nov 2022 14:12:50 GMT
+Via: 1.1 vegur
+
+{
+    "bookingid": 13846,
+    "booking": {
+        "firstname": "Andre",
+        "lastname": "Balistreri",
+        "totalprice": 1848,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2022-11-06",
+            "checkout": "2022-12-01"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+19:42:50.323 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:50.323 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:50.323 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.createBookingTest
+19:42:50.323 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:50.323 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="getBookingTest" classname="com.restfulbooker.RestfulBookerE2ETests" time="1.522">
+    <system-out><![CDATA[19:42:50.324 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:50.324 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:50.324 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....getBookingTest
+19:42:50.324 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:50.324 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/13846
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/13846
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/13846
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 176
+Etag: W/"b0-g0CDqmbcfIHJeBZEyDRxgUnLOJ4"
+Date: Sat, 26 Nov 2022 14:12:51 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Andre",
+    "lastname": "Balistreri",
+    "totalprice": 1848,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-06",
+        "checkout": "2022-12-01"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 176
+Etag: W/"b0-g0CDqmbcfIHJeBZEyDRxgUnLOJ4"
+Date: Sat, 26 Nov 2022 14:12:51 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Andre",
+    "lastname": "Balistreri",
+    "totalprice": 1848,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-06",
+        "checkout": "2022-12-01"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 176
+Etag: W/"b0-g0CDqmbcfIHJeBZEyDRxgUnLOJ4"
+Date: Sat, 26 Nov 2022 14:12:51 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Andre",
+    "lastname": "Balistreri",
+    "totalprice": 1848,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-06",
+        "checkout": "2022-12-01"
+    },
+    "additionalneeds": "Breakfast"
+}
+19:42:51.844 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:51.845 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:51.845 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.getBookingTest
+19:42:51.845 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:51.845 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="updateBookingTest" classname="com.restfulbooker.RestfulBookerE2ETests" time="2.968">
+    <system-out><![CDATA[19:42:51.845 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:51.845 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:51.845 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....updateBookingTest
+19:42:51.845 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:51.845 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-9LOF9AYCSKPhe0r/DQrJPUGeZEA"
+Date: Sat, 26 Nov 2022 14:12:53 GMT
+Via: 1.1 vegur
+
+{
+    "token": "debc1aaa50718e2"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-9LOF9AYCSKPhe0r/DQrJPUGeZEA"
+Date: Sat, 26 Nov 2022 14:12:53 GMT
+Via: 1.1 vegur
+
+{
+    "token": "debc1aaa50718e2"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-9LOF9AYCSKPhe0r/DQrJPUGeZEA"
+Date: Sat, 26 Nov 2022 14:12:53 GMT
+Via: 1.1 vegur
+
+{
+    "token": "debc1aaa50718e2"
+}
+Request method:	PUT
+Request URI:	https://restful-booker.herokuapp.com/booking/13846
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Cookie=token=debc1aaa50718e2
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Mallory",
+    "lastname": "Murphy",
+    "totalprice": 763,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-23",
+        "checkout": "2022-11-30"
+    },
+    "additionalneeds": "Breakfast"
+}
+Request method:	PUT
+Request URI:	https://restful-booker.herokuapp.com/booking/13846
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Cookie=token=debc1aaa50718e2
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Mallory",
+    "lastname": "Murphy",
+    "totalprice": 763,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-23",
+        "checkout": "2022-11-30"
+    },
+    "additionalneeds": "Breakfast"
+}
+Request method:	PUT
+Request URI:	https://restful-booker.herokuapp.com/booking/13846
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Cookie=token=debc1aaa50718e2
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Mallory",
+    "lastname": "Murphy",
+    "totalprice": 763,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-23",
+        "checkout": "2022-11-30"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 173
+Etag: W/"ad-YWvIlIbRCA3roc20DzDRti+pRjk"
+Date: Sat, 26 Nov 2022 14:12:54 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Mallory",
+    "lastname": "Murphy",
+    "totalprice": 763,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-23",
+        "checkout": "2022-11-30"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 173
+Etag: W/"ad-YWvIlIbRCA3roc20DzDRti+pRjk"
+Date: Sat, 26 Nov 2022 14:12:54 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Mallory",
+    "lastname": "Murphy",
+    "totalprice": 763,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-23",
+        "checkout": "2022-11-30"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 173
+Etag: W/"ad-YWvIlIbRCA3roc20DzDRti+pRjk"
+Date: Sat, 26 Nov 2022 14:12:54 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Mallory",
+    "lastname": "Murphy",
+    "totalprice": 763,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-23",
+        "checkout": "2022-11-30"
+    },
+    "additionalneeds": "Breakfast"
+}
+19:42:54.810 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:54.810 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:54.810 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.updateBookingTest
+19:42:54.810 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:54.810 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="updatePartialBookingTest" classname="com.restfulbooker.RestfulBookerE2ETests" time="4.258">
+    <system-out><![CDATA[19:42:54.810 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:54.810 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:54.811 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....updatePartialBookingTest
+19:42:54.811 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:54.811 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-eU/DuYNoiSKeXZsi3BeDYTZEx1Q"
+Date: Sat, 26 Nov 2022 14:12:57 GMT
+Via: 1.1 vegur
+
+{
+    "token": "75a12b1734121c7"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-eU/DuYNoiSKeXZsi3BeDYTZEx1Q"
+Date: Sat, 26 Nov 2022 14:12:57 GMT
+Via: 1.1 vegur
+
+{
+    "token": "75a12b1734121c7"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-eU/DuYNoiSKeXZsi3BeDYTZEx1Q"
+Date: Sat, 26 Nov 2022 14:12:57 GMT
+Via: 1.1 vegur
+
+{
+    "token": "75a12b1734121c7"
+}
+Request method:	PATCH
+Request URI:	https://restful-booker.herokuapp.com/booking/13846
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Cookie=token=75a12b1734121c7
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Jeremiah",
+    "totalprice": 1117
+}
+Request method:	PATCH
+Request URI:	https://restful-booker.herokuapp.com/booking/13846
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Cookie=token=75a12b1734121c7
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Jeremiah",
+    "totalprice": 1117
+}
+Request method:	PATCH
+Request URI:	https://restful-booker.herokuapp.com/booking/13846
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Cookie=token=75a12b1734121c7
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Jeremiah",
+    "totalprice": 1117
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 175
+Etag: W/"af-FOxt3+EwooSHRw0Mi0gzk0Druvw"
+Date: Sat, 26 Nov 2022 14:12:59 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Jeremiah",
+    "lastname": "Murphy",
+    "totalprice": 1117,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-23",
+        "checkout": "2022-11-30"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 175
+Etag: W/"af-FOxt3+EwooSHRw0Mi0gzk0Druvw"
+Date: Sat, 26 Nov 2022 14:12:59 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Jeremiah",
+    "lastname": "Murphy",
+    "totalprice": 1117,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-23",
+        "checkout": "2022-11-30"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 175
+Etag: W/"af-FOxt3+EwooSHRw0Mi0gzk0Druvw"
+Date: Sat, 26 Nov 2022 14:12:59 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Jeremiah",
+    "lastname": "Murphy",
+    "totalprice": 1117,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-23",
+        "checkout": "2022-11-30"
+    },
+    "additionalneeds": "Breakfast"
+}
+19:42:59.069 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:59.070 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:59.070 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.updatePartialBookingTest
+19:42:59.070 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:59.070 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="deleteBookingTest" classname="com.restfulbooker.RestfulBookerE2ETests" time="3.14">
+    <system-out><![CDATA[19:42:59.070 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:42:59.070 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:59.070 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....deleteBookingTest
+19:42:59.070 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:42:59.070 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-U6oPq1RTSiNpBQj+dvCg/a9AM/0"
+Date: Sat, 26 Nov 2022 14:13:00 GMT
+Via: 1.1 vegur
+
+{
+    "token": "5e6dee38e32e98a"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-U6oPq1RTSiNpBQj+dvCg/a9AM/0"
+Date: Sat, 26 Nov 2022 14:13:00 GMT
+Via: 1.1 vegur
+
+{
+    "token": "5e6dee38e32e98a"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-U6oPq1RTSiNpBQj+dvCg/a9AM/0"
+Date: Sat, 26 Nov 2022 14:13:00 GMT
+Via: 1.1 vegur
+
+{
+    "token": "5e6dee38e32e98a"
+}
+Request method:	DELETE
+Request URI:	https://restful-booker.herokuapp.com/booking/13846
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Cookie=token=5e6dee38e32e98a
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://restful-booker.herokuapp.com/booking/13846
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Cookie=token=5e6dee38e32e98a
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://restful-booker.herokuapp.com/booking/13846
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Cookie=token=5e6dee38e32e98a
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 7
+Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"
+Date: Sat, 26 Nov 2022 14:13:02 GMT
+Via: 1.1 vegur
+
+Created
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 7
+Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"
+Date: Sat, 26 Nov 2022 14:13:02 GMT
+Via: 1.1 vegur
+
+Created
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 7
+Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"
+Date: Sat, 26 Nov 2022 14:13:02 GMT
+Via: 1.1 vegur
+
+Created
+19:43:02.209 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:02.209 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:02.209 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.deleteBookingTest
+19:43:02.210 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:02.210 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="checkBookingIsDeleted" classname="com.restfulbooker.RestfulBookerE2ETests" time="1.304">
+    <system-out><![CDATA[19:43:02.211 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:02.211 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:02.211 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....checkBookingIsDeleted
+19:43:02.211 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:02.211 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/13846
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/13846
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/13846
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 9
+Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+Date: Sat, 26 Nov 2022 14:13:03 GMT
+Via: 1.1 vegur
+
+Not Found
+HTTP/1.1 404 Not Found
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 9
+Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+Date: Sat, 26 Nov 2022 14:13:03 GMT
+Via: 1.1 vegur
+
+Not Found
+HTTP/1.1 404 Not Found
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 9
+Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+Date: Sat, 26 Nov 2022 14:13:03 GMT
+Via: 1.1 vegur
+
+Not Found
+19:43:03.514 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:03.514 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:03.514 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.checkBookingIsDeleted
+19:43:03.514 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:03.515 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateBookingJsonSchema" classname="com.restfulbooker.JsonSchemaValidationTest" time="1.629">
+    <system-out><![CDATA[19:43:03.515 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:03.515 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:03.515 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Completed Successfully for all tests!![RestfulBookerE2ETests.checkBookingIsDeleted()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4], RestfulBookerE2ETests.createBookingTest()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4], RestfulBookerE2ETests.deleteBookingTest()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4], RestfulBookerE2ETests.getBookingTest()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4], RestfulBookerE2ETests.updateBookingTest()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4], RestfulBookerE2ETests.updatePartialBookingTest()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4], JsonSchemaValidationTest.testCreateBookingJsonSchema()[pri:0, instance:com.restfulbooker.JsonSchemaValidationTest@14f5da2c], JsonSchemaValidationTest.testCreateJsonSchema()[pri:0, instance:com.restfulbooker.JsonSchemaValidationTest@14f5da2c], JsonSchemaValidationTest.testGetBookingJsonSchema()[pri:0, instance:com.restfulbooker.JsonSchemaValidationTest@14f5da2c], JsonSchemaValidationTest.testUpdateBookingJsonSchema()[pri:0, instance:com.restfulbooker.JsonSchemaValidationTest@14f5da2c], JsonSchemaValidationTest.testUpdatePartialBookingJsonSchema()[pri:0, instance:com.restfulbooker.JsonSchemaValidationTest@14f5da2c]]
+19:43:03.515 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:03.515 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:03.522 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:03.522 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:03.522 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....testCreateBookingJsonSchema
+19:43:03.522 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:03.522 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Alvaro",
+    "lastname": "Harber",
+    "totalprice": 233,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-24",
+        "checkout": "2022-11-27"
+    },
+    "additionalneeds": "Breakfast"
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Alvaro",
+    "lastname": "Harber",
+    "totalprice": 233,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-24",
+        "checkout": "2022-11-27"
+    },
+    "additionalneeds": "Breakfast"
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Alvaro",
+    "lastname": "Harber",
+    "totalprice": 233,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-24",
+        "checkout": "2022-11-27"
+    },
+    "additionalneeds": "Breakfast"
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Alvaro",
+    "lastname": "Harber",
+    "totalprice": 233,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-24",
+        "checkout": "2022-11-27"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 202
+Etag: W/"ca-A3OzzxzLf+j3l39CMIP8QfkE45E"
+Date: Sat, 26 Nov 2022 14:13:05 GMT
+Via: 1.1 vegur
+
+{
+    "bookingid": 13868,
+    "booking": {
+        "firstname": "Alvaro",
+        "lastname": "Harber",
+        "totalprice": 233,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2022-11-24",
+            "checkout": "2022-11-27"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 202
+Etag: W/"ca-A3OzzxzLf+j3l39CMIP8QfkE45E"
+Date: Sat, 26 Nov 2022 14:13:05 GMT
+Via: 1.1 vegur
+
+{
+    "bookingid": 13868,
+    "booking": {
+        "firstname": "Alvaro",
+        "lastname": "Harber",
+        "totalprice": 233,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2022-11-24",
+            "checkout": "2022-11-27"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 202
+Etag: W/"ca-A3OzzxzLf+j3l39CMIP8QfkE45E"
+Date: Sat, 26 Nov 2022 14:13:05 GMT
+Via: 1.1 vegur
+
+{
+    "bookingid": 13868,
+    "booking": {
+        "firstname": "Alvaro",
+        "lastname": "Harber",
+        "totalprice": 233,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2022-11-24",
+            "checkout": "2022-11-27"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 202
+Etag: W/"ca-A3OzzxzLf+j3l39CMIP8QfkE45E"
+Date: Sat, 26 Nov 2022 14:13:05 GMT
+Via: 1.1 vegur
+
+{
+    "bookingid": 13868,
+    "booking": {
+        "firstname": "Alvaro",
+        "lastname": "Harber",
+        "totalprice": 233,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2022-11-24",
+            "checkout": "2022-11-27"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
+19:43:05.154 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:05.155 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:05.155 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.testCreateBookingJsonSchema
+19:43:05.155 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:05.155 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBookingJsonSchema" classname="com.restfulbooker.JsonSchemaValidationTest" time="3.075">
+    <system-out><![CDATA[19:43:05.155 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:05.155 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:05.155 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....testGetBookingJsonSchema
+19:43:05.155 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:05.155 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/13868
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/13868
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/13868
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/13868
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 172
+Etag: W/"ac-uMBymHLMpki99t9FIxi5LGBBJgs"
+Date: Sat, 26 Nov 2022 14:13:07 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Alvaro",
+    "lastname": "Harber",
+    "totalprice": 233,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-24",
+        "checkout": "2022-11-27"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 172
+Etag: W/"ac-uMBymHLMpki99t9FIxi5LGBBJgs"
+Date: Sat, 26 Nov 2022 14:13:07 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Alvaro",
+    "lastname": "Harber",
+    "totalprice": 233,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-24",
+        "checkout": "2022-11-27"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 172
+Etag: W/"ac-uMBymHLMpki99t9FIxi5LGBBJgs"
+Date: Sat, 26 Nov 2022 14:13:07 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Alvaro",
+    "lastname": "Harber",
+    "totalprice": 233,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-24",
+        "checkout": "2022-11-27"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 172
+Etag: W/"ac-uMBymHLMpki99t9FIxi5LGBBJgs"
+Date: Sat, 26 Nov 2022 14:13:07 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Alvaro",
+    "lastname": "Harber",
+    "totalprice": 233,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-24",
+        "checkout": "2022-11-27"
+    },
+    "additionalneeds": "Breakfast"
+}
+19:43:08.225 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:08.225 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:08.225 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.testGetBookingJsonSchema
+19:43:08.225 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:08.225 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateBookingJsonSchema" classname="com.restfulbooker.JsonSchemaValidationTest" time="1.512">
+    <system-out><![CDATA[19:43:08.225 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:08.226 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:08.226 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....testUpdateBookingJsonSchema
+19:43:08.226 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:08.226 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/13868
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Richard",
+    "lastname": "Bahringer",
+    "totalprice": 1867,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-12",
+        "checkout": "2022-11-29"
+    },
+    "additionalneeds": "Breakfast"
+}
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/13868
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Richard",
+    "lastname": "Bahringer",
+    "totalprice": 1867,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-12",
+        "checkout": "2022-11-29"
+    },
+    "additionalneeds": "Breakfast"
+}
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/13868
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Richard",
+    "lastname": "Bahringer",
+    "totalprice": 1867,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-12",
+        "checkout": "2022-11-29"
+    },
+    "additionalneeds": "Breakfast"
+}
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/13868
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Richard",
+    "lastname": "Bahringer",
+    "totalprice": 1867,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-12",
+        "checkout": "2022-11-29"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 172
+Etag: W/"ac-uMBymHLMpki99t9FIxi5LGBBJgs"
+Date: Sat, 26 Nov 2022 14:13:09 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Alvaro",
+    "lastname": "Harber",
+    "totalprice": 233,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-24",
+        "checkout": "2022-11-27"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 172
+Etag: W/"ac-uMBymHLMpki99t9FIxi5LGBBJgs"
+Date: Sat, 26 Nov 2022 14:13:09 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Alvaro",
+    "lastname": "Harber",
+    "totalprice": 233,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-24",
+        "checkout": "2022-11-27"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 172
+Etag: W/"ac-uMBymHLMpki99t9FIxi5LGBBJgs"
+Date: Sat, 26 Nov 2022 14:13:09 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Alvaro",
+    "lastname": "Harber",
+    "totalprice": 233,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-24",
+        "checkout": "2022-11-27"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 172
+Etag: W/"ac-uMBymHLMpki99t9FIxi5LGBBJgs"
+Date: Sat, 26 Nov 2022 14:13:09 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Alvaro",
+    "lastname": "Harber",
+    "totalprice": 233,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-24",
+        "checkout": "2022-11-27"
+    },
+    "additionalneeds": "Breakfast"
+}
+19:43:09.737 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:09.737 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:09.737 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.testUpdateBookingJsonSchema
+19:43:09.738 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:09.738 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePartialBookingJsonSchema" classname="com.restfulbooker.JsonSchemaValidationTest" time="1.597">
+    <system-out><![CDATA[19:43:09.738 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:09.738 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:09.738 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....testUpdatePartialBookingJsonSchema
+19:43:09.738 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:09.738 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/13868
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Chris",
+    "totalprice": 1803
+}
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/13868
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Chris",
+    "totalprice": 1803
+}
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/13868
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Chris",
+    "totalprice": 1803
+}
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/13868
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Chris",
+    "totalprice": 1803
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 172
+Etag: W/"ac-uMBymHLMpki99t9FIxi5LGBBJgs"
+Date: Sat, 26 Nov 2022 14:13:11 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Alvaro",
+    "lastname": "Harber",
+    "totalprice": 233,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-24",
+        "checkout": "2022-11-27"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 172
+Etag: W/"ac-uMBymHLMpki99t9FIxi5LGBBJgs"
+Date: Sat, 26 Nov 2022 14:13:11 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Alvaro",
+    "lastname": "Harber",
+    "totalprice": 233,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-24",
+        "checkout": "2022-11-27"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 172
+Etag: W/"ac-uMBymHLMpki99t9FIxi5LGBBJgs"
+Date: Sat, 26 Nov 2022 14:13:11 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Alvaro",
+    "lastname": "Harber",
+    "totalprice": 233,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-24",
+        "checkout": "2022-11-27"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 172
+Etag: W/"ac-uMBymHLMpki99t9FIxi5LGBBJgs"
+Date: Sat, 26 Nov 2022 14:13:11 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Alvaro",
+    "lastname": "Harber",
+    "totalprice": 233,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2022-11-24",
+        "checkout": "2022-11-27"
+    },
+    "additionalneeds": "Breakfast"
+}
+19:43:11.336 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:11.336 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:11.336 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.testUpdatePartialBookingJsonSchema
+19:43:11.337 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:11.337 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateJsonSchema" classname="com.restfulbooker.JsonSchemaValidationTest" time="1.348">
+    <system-out><![CDATA[19:43:11.337 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:11.337 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:11.337 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....testCreateJsonSchema
+19:43:11.337 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:11.337 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-tOSYQ6m8CUSKeIbLI/Zt7IXXpiQ"
+Date: Sat, 26 Nov 2022 14:13:12 GMT
+Via: 1.1 vegur
+
+{
+    "token": "d23e8fdd95640df"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-tOSYQ6m8CUSKeIbLI/Zt7IXXpiQ"
+Date: Sat, 26 Nov 2022 14:13:12 GMT
+Via: 1.1 vegur
+
+{
+    "token": "d23e8fdd95640df"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-tOSYQ6m8CUSKeIbLI/Zt7IXXpiQ"
+Date: Sat, 26 Nov 2022 14:13:12 GMT
+Via: 1.1 vegur
+
+{
+    "token": "d23e8fdd95640df"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-tOSYQ6m8CUSKeIbLI/Zt7IXXpiQ"
+Date: Sat, 26 Nov 2022 14:13:12 GMT
+Via: 1.1 vegur
+
+{
+    "token": "d23e8fdd95640df"
+}
+19:43:12.685 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:12.685 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:12.685 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.testCreateJsonSchema
+19:43:12.685 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:12.685 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+  <testcase name="testNumberToWordsAPI" classname="soapapitests.NumberToWordsTest" time="2.733">
+    <system-out><![CDATA[19:43:12.685 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:12.686 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:12.686 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Completed Successfully for all tests!![RestfulBookerE2ETests.checkBookingIsDeleted()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4], RestfulBookerE2ETests.createBookingTest()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4], RestfulBookerE2ETests.deleteBookingTest()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4], RestfulBookerE2ETests.getBookingTest()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4], RestfulBookerE2ETests.updateBookingTest()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4], RestfulBookerE2ETests.updatePartialBookingTest()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4], JsonSchemaValidationTest.testCreateBookingJsonSchema()[pri:0, instance:com.restfulbooker.JsonSchemaValidationTest@14f5da2c], JsonSchemaValidationTest.testCreateJsonSchema()[pri:0, instance:com.restfulbooker.JsonSchemaValidationTest@14f5da2c], JsonSchemaValidationTest.testGetBookingJsonSchema()[pri:0, instance:com.restfulbooker.JsonSchemaValidationTest@14f5da2c], JsonSchemaValidationTest.testUpdateBookingJsonSchema()[pri:0, instance:com.restfulbooker.JsonSchemaValidationTest@14f5da2c], JsonSchemaValidationTest.testUpdatePartialBookingJsonSchema()[pri:0, instance:com.restfulbooker.JsonSchemaValidationTest@14f5da2c]]
+19:43:12.686 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:12.686 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:12.690 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:12.690 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:12.690 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Execution Started....testNumberToWordsAPI
+19:43:12.690 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:12.690 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+Request method:	POST
+Request URI:	https://www.dataaccess.com/webservicesserver/NumberConversion.wso
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=text/xml; charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+/Users/ankit/Downloads/rest-assured-examples-master/target/test-classes/numbertowordrequest.xml
+Request method:	POST
+Request URI:	https://www.dataaccess.com/webservicesserver/NumberConversion.wso
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=text/xml; charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+/Users/ankit/Downloads/rest-assured-examples-master/target/test-classes/numbertowordrequest.xml
+Request method:	POST
+Request URI:	https://www.dataaccess.com/webservicesserver/NumberConversion.wso
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=text/xml; charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+/Users/ankit/Downloads/rest-assured-examples-master/target/test-classes/numbertowordrequest.xml
+Request method:	POST
+Request URI:	https://www.dataaccess.com/webservicesserver/NumberConversion.wso
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=text/xml; charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+/Users/ankit/Downloads/rest-assured-examples-master/target/test-classes/numbertowordrequest.xml
+Request method:	POST
+Request URI:	https://www.dataaccess.com/webservicesserver/NumberConversion.wso
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=text/xml; charset=utf-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+/Users/ankit/Downloads/rest-assured-examples-master/target/test-classes/numbertowordrequest.xml
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Server
+Web-Service: DataFlex 19.1
+X-Powered-By: ASP.NET
+Date: Sat, 26 Nov 2022 14:13:14 GMT
+Content-Length: 336
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:NumberToWordsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/">
+      <m:NumberToWordsResult>five thousand nine hundred and fifty eight </m:NumberToWordsResult>
+    </m:NumberToWordsResponse>
+  </soap:Body>
+</soap:Envelope>
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Server
+Web-Service: DataFlex 19.1
+X-Powered-By: ASP.NET
+Date: Sat, 26 Nov 2022 14:13:14 GMT
+Content-Length: 336
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:NumberToWordsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/">
+      <m:NumberToWordsResult>five thousand nine hundred and fifty eight </m:NumberToWordsResult>
+    </m:NumberToWordsResponse>
+  </soap:Body>
+</soap:Envelope>
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Server
+Web-Service: DataFlex 19.1
+X-Powered-By: ASP.NET
+Date: Sat, 26 Nov 2022 14:13:14 GMT
+Content-Length: 336
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:NumberToWordsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/">
+      <m:NumberToWordsResult>five thousand nine hundred and fifty eight </m:NumberToWordsResult>
+    </m:NumberToWordsResponse>
+  </soap:Body>
+</soap:Envelope>
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Server
+Web-Service: DataFlex 19.1
+X-Powered-By: ASP.NET
+Date: Sat, 26 Nov 2022 14:13:14 GMT
+Content-Length: 336
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:NumberToWordsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/">
+      <m:NumberToWordsResult>five thousand nine hundred and fifty eight </m:NumberToWordsResult>
+    </m:NumberToWordsResponse>
+  </soap:Body>
+</soap:Envelope>
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Server
+Web-Service: DataFlex 19.1
+X-Powered-By: ASP.NET
+Date: Sat, 26 Nov 2022 14:13:14 GMT
+Content-Length: 336
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:NumberToWordsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/">
+      <m:NumberToWordsResult>five thousand nine hundred and fifty eight </m:NumberToWordsResult>
+    </m:NumberToWordsResponse>
+  </soap:Body>
+</soap:Envelope>
+19:43:15.422 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+19:43:15.422 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:15.422 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - Test Passed Successfully.testNumberToWordsAPI
+19:43:15.422 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - ===========================================================================
+19:43:15.422 [main] INFO  io.github.mfaisalkhatri.utility.TestListener - 
+
+]]></system-out>
+  </testcase>
+</testsuite>

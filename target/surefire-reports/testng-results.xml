@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-26T19:43:15 IST" name="Rest-Assured API Test Suite" finished-at="2022-11-26T19:43:15 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Rest-Assured API Test Suite -->
+  <suite started-at="2022-11-26T19:43:12 IST" name="SOAP API Test Suite" finished-at="2022-11-26T19:43:15 IST" duration-ms="2734">
+    <groups>
+    </groups>
+    <test started-at="2022-11-26T19:43:12 IST" name="SOAP API Number to Words Test" finished-at="2022-11-26T19:43:15 IST" duration-ms="2734">
+      <class name="soapapitests.NumberToWordsTest">
+        <test-method signature="testNumberToWordsAPI()[pri:0, instance:soapapitests.NumberToWordsTest@652a7737]" started-at="2022-11-26T19:43:12 IST" name="testNumberToWordsAPI" finished-at="2022-11-26T19:43:15 IST" duration-ms="2733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumberToWordsAPI -->
+      </class> <!-- soapapitests.NumberToWordsTest -->
+    </test> <!-- SOAP API Number to Words Test -->
+  </suite> <!-- SOAP API Test Suite -->
+  <suite started-at="2022-11-26T19:42:48 IST" name="Restful Booker Test Suite" finished-at="2022-11-26T19:43:12 IST" duration-ms="24581">
+    <groups>
+    </groups>
+    <test started-at="2022-11-26T19:42:48 IST" name="Restful Booker tests" finished-at="2022-11-26T19:43:03 IST" duration-ms="15411">
+      <class name="com.restfulbooker.RestfulBookerE2ETests">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4]" started-at="2022-11-26T19:42:48 IST" name="testSetup" finished-at="2022-11-26T19:42:48 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4]" started-at="2022-11-26T19:42:48 IST" name="setup" finished-at="2022-11-26T19:42:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createBookingTest()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4]" started-at="2022-11-26T19:42:48 IST" name="createBookingTest" finished-at="2022-11-26T19:42:50 IST" duration-ms="2187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookingTest -->
+        <test-method signature="getBookingTest()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4]" started-at="2022-11-26T19:42:50 IST" name="getBookingTest" finished-at="2022-11-26T19:42:51 IST" duration-ms="1520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingTest -->
+        <test-method signature="updateBookingTest()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4]" started-at="2022-11-26T19:42:51 IST" name="updateBookingTest" finished-at="2022-11-26T19:42:54 IST" duration-ms="2965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBookingTest -->
+        <test-method signature="updatePartialBookingTest()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4]" started-at="2022-11-26T19:42:54 IST" name="updatePartialBookingTest" finished-at="2022-11-26T19:42:59 IST" duration-ms="4259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePartialBookingTest -->
+        <test-method signature="deleteBookingTest()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4]" started-at="2022-11-26T19:42:59 IST" name="deleteBookingTest" finished-at="2022-11-26T19:43:02 IST" duration-ms="3139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBookingTest -->
+        <test-method signature="checkBookingIsDeleted()[pri:0, instance:com.restfulbooker.RestfulBookerE2ETests@1dd0e7c4]" started-at="2022-11-26T19:43:02 IST" name="checkBookingIsDeleted" finished-at="2022-11-26T19:43:03 IST" duration-ms="1303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBookingIsDeleted -->
+      </class> <!-- com.restfulbooker.RestfulBookerE2ETests -->
+    </test> <!-- Restful Booker tests -->
+    <test started-at="2022-11-26T19:43:03 IST" name="Restful Booker JSON Schema Validation tests" finished-at="2022-11-26T19:43:12 IST" duration-ms="9166">
+      <class name="com.restfulbooker.JsonSchemaValidationTest">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.restfulbooker.JsonSchemaValidationTest@14f5da2c]" started-at="2022-11-26T19:43:03 IST" name="testSetup" finished-at="2022-11-26T19:43:03 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.restfulbooker.JsonSchemaValidationTest@14f5da2c]" started-at="2022-11-26T19:43:03 IST" name="setup" finished-at="2022-11-26T19:43:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateBookingJsonSchema()[pri:0, instance:com.restfulbooker.JsonSchemaValidationTest@14f5da2c]" started-at="2022-11-26T19:43:03 IST" name="testCreateBookingJsonSchema" finished-at="2022-11-26T19:43:05 IST" duration-ms="1632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBookingJsonSchema -->
+        <test-method signature="testGetBookingJsonSchema()[pri:0, instance:com.restfulbooker.JsonSchemaValidationTest@14f5da2c]" started-at="2022-11-26T19:43:05 IST" name="testGetBookingJsonSchema" finished-at="2022-11-26T19:43:08 IST" duration-ms="3070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBookingJsonSchema -->
+        <test-method signature="testUpdateBookingJsonSchema()[pri:0, instance:com.restfulbooker.JsonSchemaValidationTest@14f5da2c]" started-at="2022-11-26T19:43:08 IST" name="testUpdateBookingJsonSchema" finished-at="2022-11-26T19:43:09 IST" duration-ms="1512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateBookingJsonSchema -->
+        <test-method signature="testUpdatePartialBookingJsonSchema()[pri:0, instance:com.restfulbooker.JsonSchemaValidationTest@14f5da2c]" started-at="2022-11-26T19:43:09 IST" name="testUpdatePartialBookingJsonSchema" finished-at="2022-11-26T19:43:11 IST" duration-ms="1598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePartialBookingJsonSchema -->
+        <test-method signature="testCreateJsonSchema()[pri:0, instance:com.restfulbooker.JsonSchemaValidationTest@14f5da2c]" started-at="2022-11-26T19:43:11 IST" name="testCreateJsonSchema" finished-at="2022-11-26T19:43:12 IST" duration-ms="1348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateJsonSchema -->
+      </class> <!-- com.restfulbooker.JsonSchemaValidationTest -->
+    </test> <!-- Restful Booker JSON Schema Validation tests -->
+  </suite> <!-- Restful Booker Test Suite -->
+  <suite started-at="2022-11-26T19:42:37 IST" name="ReqRes Test Suite" finished-at="2022-11-26T19:42:48 IST" duration-ms="10366">
+    <groups>
+    </groups>
+    <test started-at="2022-11-26T19:42:37 IST" name="Authentication Tests" finished-at="2022-11-26T19:42:40 IST" duration-ms="2620">
+      <class name="io.github.mfaisalkhatri.TestAuthentication">
+        <test-method signature="testAuthenticationToken(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestAuthentication@29df4d43]" started-at="2022-11-26T19:42:37 IST" name="testAuthenticationToken" data-provider="getAuthenticationData" finished-at="2022-11-26T19:42:39 IST" duration-ms="2020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve.holt@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pistol]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthenticationToken -->
+        <test-method signature="testAuthToken(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestAuthentication@29df4d43]" started-at="2022-11-26T19:42:39 IST" name="testAuthToken" data-provider="getAuthenticationData" finished-at="2022-11-26T19:42:40 IST" duration-ms="579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve.holt@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pistol]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthToken -->
+      </class> <!-- io.github.mfaisalkhatri.TestAuthentication -->
+    </test> <!-- Authentication Tests -->
+    <test started-at="2022-11-26T19:42:40 IST" name="Get Request Tests" finished-at="2022-11-26T19:42:42 IST" duration-ms="1692">
+      <class name="io.github.mfaisalkhatri.TestGetRequests">
+        <test-method signature="getRequestTest(int)[pri:0, instance:io.github.mfaisalkhatri.TestGetRequests@5974109]" started-at="2022-11-26T19:42:40 IST" name="getRequestTest" data-provider="getUserData" finished-at="2022-11-26T19:42:40 IST" duration-ms="399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequestTest -->
+        <test-method signature="getRequestTestWithQueryParam(int)[pri:0, instance:io.github.mfaisalkhatri.TestGetRequests@5974109]" started-at="2022-11-26T19:42:40 IST" name="getRequestTestWithQueryParam" data-provider="getUserData" finished-at="2022-11-26T19:42:42 IST" duration-ms="1292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequestTestWithQueryParam -->
+      </class> <!-- io.github.mfaisalkhatri.TestGetRequests -->
+    </test> <!-- Get Request Tests -->
+    <test started-at="2022-11-26T19:42:42 IST" name="Get Tests with Rest Assured Config" finished-at="2022-11-26T19:42:42 IST" duration-ms="153">
+      <class name="io.github.mfaisalkhatri.TestGetRequestWithRestAssuredConfig">
+        <test-method is-config="true" signature="setup()[pri:0, instance:io.github.mfaisalkhatri.TestGetRequestWithRestAssuredConfig@590c73d3]" started-at="2022-11-26T19:42:42 IST" name="setup" finished-at="2022-11-26T19:42:42 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getRequestTestwithRestAssuredConfig()[pri:0, instance:io.github.mfaisalkhatri.TestGetRequestWithRestAssuredConfig@590c73d3]" started-at="2022-11-26T19:42:42 IST" name="getRequestTestwithRestAssuredConfig" finished-at="2022-11-26T19:42:42 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequestTestwithRestAssuredConfig -->
+      </class> <!-- io.github.mfaisalkhatri.TestGetRequestWithRestAssuredConfig -->
+    </test> <!-- Get Tests with Rest Assured Config -->
+    <test started-at="2022-11-26T19:42:42 IST" name="Post Request tests" finished-at="2022-11-26T19:42:45 IST" duration-ms="2893">
+      <class name="io.github.mfaisalkhatri.TestPostRequests">
+        <test-method signature="testPostRequests(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPostRequests@192d74fb]" started-at="2022-11-26T19:42:42 IST" name="testPostRequests" data-provider="postData" finished-at="2022-11-26T19:42:42 IST" duration-ms="532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostRequests -->
+        <test-method signature="testPostRequests(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPostRequests@192d74fb]" started-at="2022-11-26T19:42:42 IST" name="testPostRequests" data-provider="postData" finished-at="2022-11-26T19:42:43 IST" duration-ms="530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sr.Dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostRequests -->
+        <test-method signature="testPostRequests(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPostRequests@192d74fb]" started-at="2022-11-26T19:42:43 IST" name="testPostRequests" data-provider="postData" finished-at="2022-11-26T19:42:43 IST" duration-ms="663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Albert]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostRequests -->
+        <test-method signature="testPostRequests(java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPostRequests@192d74fb]" started-at="2022-11-26T19:42:43 IST" name="testPostRequests" data-provider="postData" finished-at="2022-11-26T19:42:44 IST" duration-ms="547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Johnny]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project Manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostRequests -->
+      </class> <!-- io.github.mfaisalkhatri.TestPostRequests -->
+      <class name="io.github.mfaisalkhatri.PostRequestBuilderExample">
+        <test-method is-config="true" signature="setup()[pri:0, instance:io.github.mfaisalkhatri.PostRequestBuilderExample@4bef0fe3]" started-at="2022-11-26T19:42:44 IST" name="setup" finished-at="2022-11-26T19:42:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="postTestUsingBuilderPattern()[pri:0, instance:io.github.mfaisalkhatri.PostRequestBuilderExample@4bef0fe3]" started-at="2022-11-26T19:42:44 IST" name="postTestUsingBuilderPattern" finished-at="2022-11-26T19:42:45 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestUsingBuilderPattern -->
+      </class> <!-- io.github.mfaisalkhatri.PostRequestBuilderExample -->
+    </test> <!-- Post Request tests -->
+    <test started-at="2022-11-26T19:42:45 IST" name="Put Request Tests" finished-at="2022-11-26T19:42:46 IST" duration-ms="1103">
+      <class name="io.github.mfaisalkhatri.TestPutRequests">
+        <test-method signature="putRequestsTests(int,java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPutRequests@efde75f]" started-at="2022-11-26T19:42:45 IST" name="putRequestsTests" data-provider="putData" finished-at="2022-11-26T19:42:45 IST" duration-ms="569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Michael]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[QA Lead]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putRequestsTests -->
+        <test-method signature="putRequestsTests(int,java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPutRequests@efde75f]" started-at="2022-11-26T19:42:45 IST" name="putRequestsTests" data-provider="putData" finished-at="2022-11-26T19:42:46 IST" duration-ms="532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[958]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yuan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Project Architect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putRequestsTests -->
+      </class> <!-- io.github.mfaisalkhatri.TestPutRequests -->
+    </test> <!-- Put Request Tests -->
+    <test started-at="2022-11-26T19:42:46 IST" name="Patch Request tests" finished-at="2022-11-26T19:42:47 IST" duration-ms="1190">
+      <class name="io.github.mfaisalkhatri.TestPatchRequests">
+        <test-method signature="patchRequestTests(int,java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPatchRequests@12bfd80d]" started-at="2022-11-26T19:42:46 IST" name="patchRequestTests" data-provider="patchData" finished-at="2022-11-26T19:42:46 IST" duration-ms="652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Michael]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[QA Lead]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchRequestTests -->
+        <test-method signature="patchRequestTests(int,java.lang.String,java.lang.String)[pri:0, instance:io.github.mfaisalkhatri.TestPatchRequests@12bfd80d]" started-at="2022-11-26T19:42:46 IST" name="patchRequestTests" data-provider="patchData" finished-at="2022-11-26T19:42:47 IST" duration-ms="535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[958]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yuan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Project Architect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchRequestTests -->
+      </class> <!-- io.github.mfaisalkhatri.TestPatchRequests -->
+    </test> <!-- Patch Request tests -->
+    <test started-at="2022-11-26T19:42:47 IST" name="Delete Requests tests " finished-at="2022-11-26T19:42:48 IST" duration-ms="691">
+      <class name="io.github.mfaisalkhatri.TestDeleteRequests">
+        <test-method signature="deleteRequestTests(int)[pri:0, instance:io.github.mfaisalkhatri.TestDeleteRequests@5b40ceb]" started-at="2022-11-26T19:42:47 IST" name="deleteRequestTests" data-provider="deleteUserRestAssured" finished-at="2022-11-26T19:42:48 IST" duration-ms="690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRequestTests -->
+      </class> <!-- io.github.mfaisalkhatri.TestDeleteRequests -->
+    </test> <!-- Delete Requests tests  -->
+  </suite> <!-- ReqRes Test Suite -->
+</testng-results>
